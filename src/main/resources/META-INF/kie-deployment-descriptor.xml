@@ -15,4 +15,12 @@
     <required-roles/>
     <remoteable-classes/>
     <limit-serialization-classes>true</limit-serialization-classes>
+     <work-item-handlers>  
+        <work-item-handler>  
+            <resolver>mvel</resolver>  
+            <identifier>new org.jbpm.process.workitem.rest.RESTWorkItemHandler()</identifier>  
+            <parameters/>  
+            <name>Rest</name>  
+        </work-item-handler>  
+    </work-item-handlers>  
 </deployment-descriptor>

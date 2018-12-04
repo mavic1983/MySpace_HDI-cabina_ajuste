@@ -9,13 +9,7 @@
     <event-listeners/>
     <task-event-listeners/>
     <globals/>
-    <work-item-handlers/>
-    <environment-entries/>
-    <configurations/>
-    <required-roles/>
-    <remoteable-classes/>
-    <limit-serialization-classes>true</limit-serialization-classes>
-     <work-item-handlers>  
+    <work-item-handlers>  
         <work-item-handler>  
             <resolver>mvel</resolver>  
             <identifier>new org.jbpm.process.workitem.rest.RESTWorkItemHandler()</identifier>  
@@ -23,4 +17,9 @@
             <name>Rest</name>  
         </work-item-handler>  
     </work-item-handlers>  
+    <environment-entries/>
+    <configurations/>
+    <required-roles/>
+    <remoteable-classes/>
+    <limit-serialization-classes>true</limit-serialization-classes>
 </deployment-descriptor>

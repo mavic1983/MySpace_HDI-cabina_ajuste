@@ -7,5 +7,8 @@
         <class>com.myspace.hdi_cabina_ajuste.Reporte</class>
         <class>com.myspace.hdi_cabina_ajuste.Poliza</class>
         <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="org.kie.server.persistence.dialect" value="org.hibernate.dialect.PostgreSQLDialect"/>
+        </properties>
     </persistence-unit>
 </persistence>

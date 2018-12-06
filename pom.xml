@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.myspace</groupId>
   <artifactId>HDI-cabina_ajuste</artifactId>
-  <version>1.1.4-SNAPSHOP</version>
+  <version>1.1.8-SNAPSHOP</version>
   <packaging>kjar</packaging>
   <name>HDI-cabina_ajuste</name>
   <description></description>

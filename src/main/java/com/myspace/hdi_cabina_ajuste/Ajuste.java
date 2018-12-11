@@ -22,6 +22,9 @@ public class Ajuste implements java.io.Serializable {
 	@javax.persistence.SequenceGenerator(sequenceName = "AJUSTE_ID_SEQ", name = "AJUSTE_ID_GENERATOR")
 	private java.lang.Long id;
 
+	@org.kie.api.definition.type.Label(value = "Ajustador")
+	private java.lang.String ajustador;
+
 	public Ajuste() {
 	}
 
@@ -57,12 +60,27 @@ public class Ajuste implements java.io.Serializable {
 		this.id = id;
 	}
 
+	public java.lang.String getAjustador() {
+		return this.ajustador;
+	}
+
+	public void setAjustador(java.lang.String ajustador) {
+		this.ajustador = ajustador;
+	}
+
 	public Ajuste(long reporte, java.lang.String siniestro,
-			java.lang.String declaraciones, java.lang.Long id) {
+			java.lang.String declaraciones, java.lang.Long id,
+			java.lang.String ajustador) {
 		this.reporte = reporte;
 		this.siniestro = siniestro;
 		this.declaraciones = declaraciones;
 		this.id = id;
+		this.ajustador = ajustador;
+	}
+	public Ajuste(java.lang.String siniestro,
+			java.lang.String ajustador) {
+		this.siniestro = siniestro;
+		this.ajustador = ajustador;
 	}
 
 }

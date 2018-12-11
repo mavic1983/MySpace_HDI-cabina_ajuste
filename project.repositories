@@ -3,38 +3,6 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>apache-public</id>
-        <url>https://repository.apache.org/content/groups/public/</url>
-        <source>SETTINGS</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>redhat-brew-repository</id>
-        <url>http://download.lab.bos.redhat.com/brewroot/repos/jb-bxms-6.2-build/latest/maven</url>
-        <source>SETTINGS</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>jboss-maven-repository</id>
-        <url>http://maven.repository.redhat.com/techpreview/all/</url>
-        <source>SETTINGS</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>fusesource.snapshot</id>
-        <url>http://repo.fusesource.com/nexus/content/groups/public-snapshots/</url>
-        <source>SETTINGS</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
         <id>fusesource</id>
         <url>http://repo.fusesource.com/nexus/content/groups/public/</url>
         <source>SETTINGS</source>
@@ -43,16 +11,16 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>local</id>
-        <url>/root/.m2/repository</url>
-        <source>LOCAL</source>
+        <id>central</id>
+        <url>https://repo.maven.apache.org/maven2</url>
+        <source>PROJECT</source>
       </metadata>
     </repository>
     <repository>
       <include>true</include>
       <metadata>
-        <id>rhcbap-snapshots</id>
-        <url>http://nexus-rhcbap.rhcloud.com/nexus/content/repositories/snapshots/</url>
+        <id>redhat-brew-repository</id>
+        <url>http://download.lab.bos.redhat.com/brewroot/repos/jb-bxms-6.2-build/latest/maven</url>
         <source>SETTINGS</source>
       </metadata>
     </repository>
@@ -67,9 +35,41 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>central</id>
-        <url>https://repo.maven.apache.org/maven2</url>
-        <source>PROJECT</source>
+        <id>fusesource.snapshot</id>
+        <url>http://repo.fusesource.com/nexus/content/groups/public-snapshots/</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>rhcbap-snapshots</id>
+        <url>http://nexus-rhcbap.rhcloud.com/nexus/content/repositories/snapshots/</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>local</id>
+        <url>/root/.m2/repository</url>
+        <source>LOCAL</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>apache-public</id>
+        <url>https://repository.apache.org/content/groups/public/</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>jboss-maven-repository</id>
+        <url>http://maven.repository.redhat.com/techpreview/all/</url>
+        <source>SETTINGS</source>
       </metadata>
     </repository>
   </repositories>

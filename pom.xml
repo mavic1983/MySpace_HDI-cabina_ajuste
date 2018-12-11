@@ -4,10 +4,10 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.myspace</groupId>
   <artifactId>HDI-cabina_ajuste</artifactId>
-  <version>1.1.8-SNAPSHOP</version>
+  <version>1.0.5</version>
   <packaging>kjar</packaging>
   <name>HDI-cabina_ajuste</name>
-  <description></description>
+  <description>Proceso que se inicia cuando se recibe una llamada para realizar el reporte de un siniestro asociado a una póliza de seguro, el proceso asigna un ajustador, quien después realiza el ajuste pertinente, el proceso termina cerrando el reporte.</description>
   <dependencies>
     <dependency>
       <groupId>com.thoughtworks.xstream</groupId>
